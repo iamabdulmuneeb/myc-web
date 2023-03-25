@@ -15,6 +15,7 @@ export default function Home() {
         />
       </Head>
       <header>
+        {/* This is header */}
         <Header />
       </header>
       <main>{/* main content section */}</main>
