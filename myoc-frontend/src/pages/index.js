@@ -1,3 +1,4 @@
+import Header from '@/components/Header/Header';
 import Head from 'next/head';
 
 export default function Home() {
@@ -13,7 +14,9 @@ export default function Home() {
           rel='stylesheet'
         />
       </Head>
-      <header>{/* header component */}</header>
+      <header>
+        <Header />
+      </header>
       <main>{/* main content section */}</main>
       <footer>{/* footer component */}</footer>
     </>
